@@ -1,0 +1,98 @@
+
+/*filepath=/Users/huangxiaofang3/project/频道页需求/o2_portal_fresh_v3/home/dist/_static/widget/link/link.css*/
+.body ul:after {
+  clear: both;
+  display: block;
+  font-size: 0;
+  width: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  /* autoprefixer: off */
+  -webkit-box-orient: vertical;
+  /* autoprefixer: on */
+}
+
+.linkage {
+  margin: 0 auto;
+/* padding:40px 0; */
+}
+
+.body--1200 {
+  margin: 0 auto;
+  width: 1200px !important;
+}
+
+.body--1190 {
+  margin: 0 auto;
+  width: 1190px !important;
+}
+
+.body ul:after {
+  content: '';
+}
+
+.body ul li {
+  background-color: white;
+  width: 232px;
+  padding: 30px 20px 20px;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  float: left;
+  margin-left: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.body ul li a {
+  cursor: pointer;
+}
+
+.body--1190 ul li {
+  width: 230px;
+}
+
+.body ul li:first-child {
+  margin-left: 0;
+}
+
+.img {
+  text-align: center;
+  margin-bottom: 38px;
+}
+.img img {
+  width: 150px;
+  height: 150px;
+}
+
+.title {
+  font-size: 14px;
+  color: #333;
+  text-align: left;
+  height: 48px;
+  line-height: 24px;
+  margin-bottom: 13px;
+}
+
+.priceBox {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: bold;
+  color: #E1251B;
+  text-align: left;
+}
+
+.yen {
+  margin: 0 5px 0 0;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
